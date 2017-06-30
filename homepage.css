@@ -1,0 +1,50 @@
+.carousel .carousel-item {
+  height: 300px !important;
+  width: 275px !important;
+}
+
+.newsLetter {
+  height: 300px;
+}
+
+#map {
+  height: 300px;
+  width: 300px;
+ }
+
+.thesepics {
+  border-radius: 100%;
+  margin-right: 20px;
+}
+
+
+.cart-container {
+  width: 200px;
+}
+.cart-total {
+    display: inline;
+    color: #fff;
+    text-align: right;
+    /*text-align:*/
+    /*float: right;*/
+    /*vertical-align: middle;*/
+    /*text-align: right;*/
+    margin-left: 10px;
+}
+.cart-count {
+    display: inline-block;
+    background: #ff00ff;
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    font-size: 13px;
+    vertical-align: top;
+}
+.vertical-align-bottom {
+  vertical-align: text-bottom;
+}
