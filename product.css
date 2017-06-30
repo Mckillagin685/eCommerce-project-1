@@ -1,0 +1,143 @@
+header {
+  background-image: url("img/hero.jpg");
+  height: 450px;
+  flex-direction: column;
+  justify-content: center; /*vertically centers*/
+}
+
+.brand-logo {
+  margin-left: 10px;
+}
+
+.spacer {
+  float: left;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+i {
+  vertical-align: bottom;
+}
+
+
+.card .font-size-mod {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.card .card-content .card-price {
+  font-weight: 400;
+  color: #999999;
+}
+
+tbody tr :nth-child(2) {
+  text-align: right;
+}
+
+tfoot tr :nth-child(1) {
+  text-align: right;
+}
+
+tfoot tr :nth-child(2) {
+  text-align: right;
+}
+
+table {
+  border-style: none;
+  border-bottom: 0;
+  border-top: 0;
+}
+
+/*
+.navbar-cart {
+    background: #08c;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 99;
+    height: 52px;
+    line-height: 47px;
+    padding: 0 15px;
+    color: #fff;
+}
+
+.navbar-cart .cart-total {
+    display: inline-block;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.navbar-cart .cart-count {
+    background: #d9534f;
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    text-align: center;
+    line-height: 24px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    font-size: 13px;
+    vertical-align: middle;
+}
+*/
+
+
+.cart-container {
+  width: 200px;
+}
+
+.cart-total {
+    display: inline;
+    color: #fff;
+    text-align: right;
+    margin-left: 10px;
+}
+
+.cart-count {
+    display: inline-block;
+    background: #fff;
+    color: #000;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    font-size: 13px;
+    vertical-align: top;
+}
+
+.vertical-align-bottom {
+  vertical-align: text-bottom;
+}
+
+.horizontal-align-inline {
+  display: inline;
+  padding-left: 20px;
+}
+
+.catagory-navlinks {
+  cursor: default;
+}
+
+.catagory-navlinks li:hover {
+  color: #26a69a;
+  cursor: pointer;
+}
+
+.catagory-navlink-highlit {
+  color: #ee6e73;
+}
+
+.venue-map {
+  height: 264px;
+  /*width: 500px;*/
+  border-style: none;
+  border-radius: 12px;
+  border: 0px;
+}
