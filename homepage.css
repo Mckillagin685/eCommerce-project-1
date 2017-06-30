@@ -7,16 +7,10 @@
   height: 300px;
 }
 
-#map {
-  height: 300px;
-  width: 300px;
- }
-
 .thesepics {
   border-radius: 100%;
   margin-right: 20px;
 }
-
 
 .cart-container {
   width: 200px;
