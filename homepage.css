@@ -1,3 +1,7 @@
+.brand-logo {
+  margin-left: 10px;
+}
+
 .carousel .carousel-item {
   height: 300px !important;
   width: 275px !important;
@@ -37,6 +41,7 @@
     font-size: 13px;
     vertical-align: top;
 }
+
 .vertical-align-bottom {
   vertical-align: text-bottom;
 }
