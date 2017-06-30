@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Ecommerce Assignment Unit 1 - Product</title>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <!-- Compiled and minified CSS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <link rel="stylesheet" href="product.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+    <script defer src="product.js"></script>
+  </head>
+
+  <body>
+
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#!" class="brand-logo">eCommerce</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse hide-on-large-only"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#">Home</a></li>
+          <li class="active"><a href="products.html">Products</a></li>
+
+          <li>
+            <a href="checkout.html">
+              <p id="cart-count" class="cart-count">3</p>
+              <span class="material-icons vertical-align-bottom">shopping_cart</span>
+              <p id="cart-total" class="cart-total">$0.00</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="container section">
+
+      <div class="row">
+
+        <div id="catagories" class="col s3 m3 l3">
+          <!-- <div class="col s9 m9 l9"> -->
+          <div class="spacer catagory-navlinks">
+            <h4 class="left-align">Product</h4>
+            <ul id="nav-links">
+              <!--dynamically generated list items-->
+
+            </ul>
+          </div>
+
+        </div><!--end catagories-->
+
+        <div id="product" class="col s3 m9 l9">
+          <!--dynamically populate and append image cards from js with data object-->
+
+
+        </div><!--end product-->
+
+      </div><!--end row-->
+    </main>
+
+
+    <footer class="page-footer">
+       <div class="container">
+         <div class="row">
+           <div class="col l3 s12">
+             <h5 class="white-text">Visit us</h5>
+             <div id="map"></div>
+             <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6Zjn9COewJQ9xcBnxKVAbPdClbYX4rec&callback=initMap"></script>
+           </div>
+           <div class="col l2"></div>
+           <div class="col l3 s12">
+           <h5 class="white-text">Links</h5>
+             <div>
+               <div class="row valign-wrapper">
+                 <img src="http://lorempixel.com/60/60" class="thesepics"><a class="grey-text text-lighten-3" href="#!">Link 1</a>
+               </div>
+               <div class="row valign-wrapper">
+                 <img src="http://lorempixel.com/60/60" class="thesepics"><a class="grey-text text-lighten-3" href="#!">Link 2</a>
+               </div>
+               <div class="row valign-wrapper">
+                 <img src="http://lorempixel.com/60/60" class="thesepics"><a class="grey-text text-lighten-3" href="#!">Link 3</a>
+               </div>
+               <div class="row valign-wrapper">
+                 <img src="http://lorempixel.com/60/60" class="thesepics"><a class="grey-text text-lighten-3" href="#!">Link 4</a>
+               </div>
+             </div>
+           </div>
+           <div class="col l2">
+             <h5 class="white-text">Links</h5>
+               <ul>
+                 <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                 <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                 <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                 <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+               </ul>
+           </div>
+           <div class="col l2">
+             <h5 class="white-text">Links</h5>
+               <ul>
+                 <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                 <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                 <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                 <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+               </ul>
+           </div>
+         </div>
+       </div>
+       <div class="footer-copyright">
+         <div class="container">
+           © 2014 Copyright Text
+           <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+         </div>
+       </div>
+     </footer>
+
+
+
+
+  </body>
+</html>
