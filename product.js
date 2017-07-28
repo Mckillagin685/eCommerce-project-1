@@ -1,6 +1,7 @@
 //
 //define product objects
 //
+// COMMENT: Please remove all console.log()
 console.log("snarf");
 
 var prodsCat1 = {
