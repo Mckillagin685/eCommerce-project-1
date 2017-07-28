@@ -4,6 +4,8 @@ $(document).ready(function(){
   $('.slider').slider({indicators: false});
 });
 
+// COMMENT: You only need one .ready(). Functionally, it makes no difference,
+// COMMENT: but as a developer, I don't want to go hunt down every occurence of .ready()
 $(document).ready(function(){
   $('.carousel').carousel({indicators: true, dist: 0, shift: 100, padding: 1, noWrap: true,});
   $('.carousel').carousel('set', 1);

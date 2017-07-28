@@ -6,6 +6,9 @@ $('form').on('submit', (e) => {
     Materialize.toast('Order successful', 5000);
 });
 
+
+// COMMENT: This is a good way to fill in fields
+// COMMENT: What would happen if the box was checked, and then unchecked?
 $('input[type="checkbox"]').on('click', (e) => {
   const checkbox = $('input[type="checkbox"]');
 
